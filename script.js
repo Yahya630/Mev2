@@ -1,4 +1,3 @@
-
 const navLinks = document.querySelectorAll('a[href^="#"]');
 
 navLinks.forEach(function(link) {
@@ -23,6 +22,7 @@ window.addEventListener('scroll', function() {
         navbar.style.background = 'rgba(15, 15, 30, 0.9)';
     }
 });
+
 
 const projectCards = document.querySelectorAll('.project-card');
 
